@@ -19,6 +19,14 @@ gcc -m32 -o seu_programa.exe seu_codigo.c -lcurl -lshell32
 gcc -m64 -o seu_programa.exe seu_codigo.c -lcurl -lshell32
 Substitua seu_programa.exe pelo nome desejado para o executável e seu_codigo.c pelo nome do seu arquivo de código-fonte.
 
+OU
+
+# Para compilar para 32 bits
+gcc -m32 -o seu_programa.exe seu_codigo.c -lcurl
+
+# Para compilar para 64 bits
+gcc -m64 -o seu_programa.exe seu_codigo.c -lcurl
+
 Execução
 Após a compilação, execute o programa no prompt de comando:
 
